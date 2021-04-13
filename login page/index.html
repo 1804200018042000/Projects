@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <center><h1>Welcome to login page</h1></center>
+    <div class="container">
+      <form>
+        Username:<input type="text" name="username" placeholder="Username" id="username"/>
+        &nbsp;
+        <br />
+        Password:<input type="password" name="password" placeholder="Password" id="password"/>
+        <button onclick="login()">Submit</button>
+      </form>
+    </div>
+    <script>
+    function login(){
+        let name=document.getElementById('username').value;
+        let passwo=document.getElementById('password').value;
+        if(name=="world" && passwo=="123"){
+            location.assign("file:///C:/Users/sumair%20jarang/Desktop/login%20page/indexnext.html");
+        }
+        else{
+            alert("unsuccessful login");
+        }
+    }
+    </script>
+  </body>
+</html>

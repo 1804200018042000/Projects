@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+.container {
+}
+.beer img {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  outline: none;
+  background:transparent;
+}
+.logo img{
+  position: absolute;
+  left: 68%;
+  top: 20%;
+}
+.text p {
+  color: azure;
+  position: absolute;
+  left: 10%;
+  top: 38%;
+  font-size: 20px;
+}
+.list ul li {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  margin: 8px;
+  padding: 2px;
+}
+.list ul li a {
+  text-decoration: none;
+  color: azure;
+  transition: 0.8s ease-in-out;
+}
+.list ul li a:hover {
+  color: cadetblue;
+  background: white;
+  border: 3px solid rgb(85, 104, 49);
+  margin: 2px;
+  padding: 2px;
+}

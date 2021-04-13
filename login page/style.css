@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#c0c0c0;
+}
+h1{
+    margin:10px;
+}
+.container{
+
+    border:2px solid burlywood;
+    height:200px;
+    width:200px;
+    padding:20px;
+    position:absolute;
+    left:43%;
+}
+button{
+  
+    position:absolute;
+    left:10%;
+    
+}
